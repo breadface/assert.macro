@@ -1,0 +1,43 @@
+{
+  "name": "assert.macro",
+  "version": "1.0.0",
+  "description": "a 'babel-macros' for graceful error handling based on a predicate",
+  "main": "build/assert.macro.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel assert.macro.js -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breadface/assert.macro.git"
+  },
+  "keywords": [
+    "babel-macros",
+    "babel-plugin-macros",
+    "babel",
+    "assert"
+  ],
+  "author": "Omonori Jesmine <damilolao328@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breadface/assert.macro/issues"
+  },
+  "homepage": "https://github.com/breadface/assert.macro#readme",
+  "babel": {
+    "presets": [
+      [
+        "env"
+      ]
+    ]
+  },
+  "dependencies": {
+    "babel-plugin-macros": "^2.5.1"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-tester": "^6.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-types": "^6.26.0"
+  }
+}
